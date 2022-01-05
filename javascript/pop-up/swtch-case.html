@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <marquee style="background-color: black; color: white; font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif; padding: 20px;" behavior="" direction="left">Please Enter <q>blue</q>, <q>green</q> or <q>red</q> </marquee>
+    <input id="inputIQ" type="text" style="width: 100px; text-align: center;" />
+    <button onclick="inputIQFunction()">Submit</button>
+    <script>
+        function inputIQFunction() {
+            var userinput = document.getElementById("inputIQ").value;
+            userinput = (userinput);
+            switch (true) {
+
+                case userinput == "red":
+                    document.bgColor = "#FF0000";
+                    break;
+
+                case userinput == "Red":
+                    document.bgColor = "#FF0000";
+                    break;
+
+                case userinput == "green":
+                    document.bgColor = "#00FF00";
+                    break;
+
+                case userinput == "Green":
+                    document.bgColor = "#00FF00";
+                    break;
+                case userinput == "blue":
+                    document.bgColor = "#0000FF";
+                    break;
+                case userinput == "Blue":
+                    document.bgColor = "#0000FF";
+                    break;
+
+                default:
+                    alert("Please input value");
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

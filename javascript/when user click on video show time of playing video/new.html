@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="datebtn" style="margin: 0 auto; width: 300px;"></p>
+
+
+    <button onclick="time()" type="button" >
+        <iframe id="myVideo" width="727" height="409" src="https://www.youtube.com/embed/2mLcebzCxw4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </button>
+    <br>
+
+    <button onclick="time()" type="button">
+        <iframe id="myVideo" onclick="time()" width="727" height="409" src="https://www.youtube.com/embed/b6qAnJsU0Gk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </button>
+    <button onclick="time()" type="button">
+        <iframe id="myVideo" width="727" height="409" src="https://www.youtube.com/embed/gA2taINubLA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </button>
+    <script>
+
+        function time() {
+            var currentdate = new Date();
+            var timenow = + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
+                + currentdate.getSeconds() ;
+            var datenow =  + currentdate.getDay() + "/"
+                + currentdate.getMonth() + "/"
+                + currentdate.getFullYear();
+               
+            document.getElementById("datebtn").innerHTML = "When User Clicked then time were " + timenow + " and Date " + datenow;
+            myVideo.play()
+        }
+    </script>
+</body>
+
+</html>

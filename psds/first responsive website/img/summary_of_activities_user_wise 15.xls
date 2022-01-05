@@ -1,0 +1,514 @@
+		<table id="listTable" class="display" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<th>Sr. #</th>
+					<th>User Name</th>
+					<th>District</th>
+					<th>Town</th>
+					<th>Department</th>
+
+                            <th scope="col" abbr="Iactivity">abandoned_buildings</th>
+                            <th scope="col" abbr="Iactivity">Adult_Mosquitoes</th>
+                            <th scope="col" abbr="Iactivity">Awareness</th>
+                            <th scope="col" abbr="Iactivity">Debris</th>
+                            <th scope="col" abbr="Iactivity">Dewatering</th>
+                            <th scope="col" abbr="Iactivity">dispensaries</th>
+                            <th scope="col" abbr="Iactivity">education_institutions</th>
+                            <th scope="col" abbr="Iactivity">factories</th>
+                            <th scope="col" abbr="Iactivity">FishSeed</th>
+                            <th scope="col" abbr="Iactivity">Fogging</th>
+                            <th scope="col" abbr="Iactivity">garbage</th>
+                            <th scope="col" abbr="Iactivity">godowns</th>
+                            <th scope="col" abbr="Iactivity">graveyard</th>
+                            <th scope="col" abbr="Iactivity">Helpline</th>
+                            <th scope="col" abbr="Iactivity">hospitals</th>
+                            <th scope="col" abbr="Iactivity">hotels</th>
+                            <th scope="col" abbr="Iactivity">Irrigation</th>
+                            <th scope="col" abbr="Iactivity">irs</th>
+                            <th scope="col" abbr="Iactivity">Patient</th>
+                            <th scope="col" abbr="Iactivity">junkyard</th>
+                            <th scope="col" abbr="Iactivity">Larviciding</th>
+                            <th scope="col" abbr="Iactivity">marriage_halls</th>
+                            <th scope="col" abbr="Iactivity">mosques</th>
+                            <th scope="col" abbr="Iactivity">mowing</th>
+                            <th scope="col" abbr="Iactivity">nursery</th>
+                            <th scope="col" abbr="Iactivity">Others</th>
+                            <th scope="col" abbr="Iactivity">Ovi_Trap</th>
+                            <th scope="col" abbr="Iactivity">parks</th>
+                            <th scope="col" abbr="Iactivity">patient_hotspot</th>
+                            <th scope="col" abbr="Iactivity">patient_irs</th>
+                            <th scope="col" abbr="Iactivity">patient_surveillance</th>
+                            <th scope="col" abbr="Iactivity">school</th>
+                            <th scope="col" abbr="Iactivity">service_stations</th>
+                            <th scope="col" abbr="Iactivity">swimming_pools</th>
+                            <th scope="col" abbr="Iactivity">Taps</th>
+                            <th scope="col" abbr="Iactivity">Tyres</th>
+                            <th scope="col" abbr="Iactivity">underconstruction</th>
+                            <th scope="col" abbr="Iactivity">water_ponding</th>
+                            <th scope="col" abbr="Iactivity">workshops</th>
+					<th>Larvae Positive</th>
+					<th>Larvae Negative</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+                
+						<tr class="even">
+						<td>1</td>
+						<td>asghar.ali.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>21</td>
+							<td>10</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>31</td>
+                        <td>31</td>
+					</tr>
+						<tr class="odd">
+						<td>2</td>
+						<td>iftikhar.ahmad.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>33</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>33</td>
+                        <td>33</td>
+					</tr>
+						<tr class="even">
+						<td>3</td>
+						<td>imdad.secretary.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>26</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>26</td>
+                        <td>26</td>
+					</tr>
+						<tr class="odd">
+						<td>4</td>
+						<td>liaqat.ali.sec.lgcd.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>34</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>34</td>
+                        <td>34</td>
+					</tr>
+						<tr class="even">
+						<td>5</td>
+						<td>muhammad.abdullah.sec.lgcd.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>29</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>29</td>
+                        <td>29</td>
+					</tr>
+						<tr class="odd">
+						<td>6</td>
+						<td>muhammad.shabban.sec.lgcd.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>29</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>29</td>
+                        <td>29</td>
+					</tr>
+						<tr class="even">
+						<td>7</td>
+						<td>riaz.ahmad.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>11</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>14</td>
+                        <td>14</td>
+					</tr>
+						<tr class="odd">
+						<td>8</td>
+						<td>zahid.hussain.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>30</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>30</td>
+                        <td>30</td>
+					</tr>
+						<tr class="even">
+						<td>9</td>
+						<td>zulfiqar.ali.tcouncil.swl</td>
+						<td>Sahiwal</td>
+						<td>Sahiwal</td>
+						<td>Tehsil Council</td>
+						
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>10</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+                        <td>0</td>
+						<td>10</td>
+                        <td>10</td>
+					</tr>
+			</tbody>
+			<tfoot>
+				<th colspan="45">Grand Total</th>
+				<th>236</th>
+			</tfoot>
+		</table>
+			
+			<div class="apple_pagination" ><b style="font-weight: bold">Total Records: </b>9</div>
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+</head>
+<body>
+    <h1>Type your requiremtents</h1>
+    <form id= "myForm" action="" >
+        <input id="myInput" type="text">
+        <button type="submit" >Submt Now</button>
+    </form>
+    Your Selected Items
+    <ul id="myUl">
+        <!-- <li>Mango <button>Delete</button></li> -->
+    </ul>
+    <script>
+        let myForm = document.getElementById("myForm")
+        let myInput = document.getElementById("myInput")
+        let myUl = document.getElementById("myUl")
+        myForm.addEventListener("submit", (e) =>{
+            e.preventDefault()
+            creatItem(myInput.value)
+        })
+        function creatItem(x) {
+            let ourHTML = `<li>${x} <button onclick="deleteItem(this)">Delete</button> </li>`
+            myUl.insertAdjacentHTML("beforeend", ourHTML)
+            // document.getElementById('myUl').innerHTML = `<li> ${x} <button>Delete</button> </li>`;
+            myInput.value
+            myInput.focus()
+        }
+        function deleteItem(elementToDelete) {
+            elementToDelete.parentElement.remove()
+        }
+    </script>
+</body>
+</html>

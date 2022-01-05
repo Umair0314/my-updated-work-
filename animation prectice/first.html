@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            border: 1px solid plum;
+            background-color: wheat;
+            height: 200px;
+            width: 200px;
+            animation-name: bounce;
+            animation-duration: 10s;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: 3;
+            /* animation-direction: reverse; */
+        }
+        @keyframes bounce{
+            from{background-color: yellow;}
+            to{background-color: brown;}
+        }
+        @keyframes bounce{
+            0%{
+                top: 0px;
+                left: 0px;
+                color: crimson;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+                color: cyan;
+            }
+            50%{
+                top: 0px;
+                left: 250px;
+            }
+
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+    <div class="box">
+        this is a box
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <marquee width="700px" direction="left" height="30px">
+            Time have no alternative
+            </marquee>
+        <div id="watch">00</div>
+        <div id="display">
+            <div class="total-time">
+                00:00:00.000
+            </div>
+        </div>
+            <button onclick="startStopwatch();" class="btn1">Start</button>
+            <button onclick="pause();" class="btn2">Pause</button>
+            <button onclick="stopStopwatch();" class="btn3">Stop</button>
+            <button onclick="splitTime();" class="btn4">Lap</button>
+            <button onclick="reset();" class="btn5">Reset</button>
+        <div id="times" style="display: none;"></div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

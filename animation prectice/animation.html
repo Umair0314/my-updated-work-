@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color: rgb(197, 138, 27);
+        width: 1000px;
+        height: 1000px;
+    }
+    .animation{
+        width: 200px;
+        border: 2px solid blue;
+        height: 200px;
+        animation-name: love-you;
+        position: relative;
+        animation-duration: 7s;
+        animation-direction: alternate-reverse;
+    }
+    @keyframes love-you{
+        from{width: 100px;}
+        to{width: 1400px;}
+    }
+    @keyframes love-you{
+        0%{
+top: 0px;
+left: 0px;
+        }
+        25%{
+top: 150px;
+left: 0px;
+        }
+        50%{
+top: 0px;
+left: 0px;
+        }
+        75%{
+top:0px;
+left: 250px;
+        }
+        100%{
+left: 150px;
+top: 150px;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="animation">
+
+    </div>
+</div>
+</body>
+</html>

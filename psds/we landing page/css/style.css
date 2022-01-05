@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Css of Header */
+.carousel-item{
+    background-size: cover;
+    background-position: center;
+}
+.to-end{
+    justify-content: center;
+    text-align: center;
+}
+.circle-slides{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.carousel-caption{
+    text-align: left !important;
+}
+/* Css of Navbar  */
+.nav-link {
+    border: 2px solid transparent !important;
+}
+#navbar{
+    z-index: 99;
+}
+.collapse a:hover{
+    background-color:#ffd800  ;
+    border-radius: 5px;
+    transition:all 0.3s;
+    background: yellowgreen;
+    color: yellow;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+}
+.collapse ul li{
+    padding-left: 2px;
+}
+.nav-ul{
+    padding-top: 31px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .for-background {
+    padding-top: 60px;
+  }
+.navbar-items{
+    background-color: #000000ba !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.17rem;
+}
+/* Navbar End */
+/* Header start */
+.text-color{
+color: white;
+}
+.for-align{
+    text-align: left !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0% !important;
+    bottom: 1.25rem !important;
+    left: 15%;
+    padding-top: 0px !important;
+    padding-bottom: 7.25rem !important;
+    color: #fff;
+}
+.heading{
+    font-size: 54px;
+    font-weight: 900;
+}
+.first-para{
+    font-size: 20px;
+    line-height: 1.125;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 61px;
+    max-width: 555px;
+}
+
+.text-color a {
+    width: 265px;
+    border: 2px solid transparent;
+    font-size: 29px;
+    color: black;
+    background-color: #ffd200;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 25px;
+}
+.text-color a:hover{
+    background-color: transparent;
+    border: 2px solid #ffd200;
+    color: #ffd200;
+}
+.text-color i{
+    font-size: 50px;
+    color: white;
+}
+/* Animals Section Starting from Here */
+.background-animals{
+    background-image: url("..//img/Rectangle\ 5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 106px;
+}
+.animals{
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.animals-heading{
+    font-size: 48px;
+    color: rgb(143, 179, 0);
+    font-weight: bold;
+    padding-top: 95px;
+}
+.animals p {
+    font-size: 19px;
+    padding-top: 60px;
+}
+.green{
+    background-color: #c7e21b;
+}
+.grey{
+    background-color: #a8b1ba;
+    padding: 20px 50px 26px 50px !important;
+}
+.yellow{
+    background-color: #dbc082;
+    padding: 20px 50px 26px 50px !important;
+}
+.blue{
+    background-color: #e2ebfc;
+    padding: 20px 70px 26px 70px !important;
+}
+.pics a {
+    color: black;
+    border-radius: 91px;
+    width: 249px;
+    padding: 20px 20px 26px 20px;
+    justify-content: center;
+    font-weight: 700;
+}
+.for-hover-1 a:hover{
+    background-color: transparent;
+    border: 2px solid #c7e21b;
+    color: #c7e21b;
+}
+.for-hover-2 a:hover{
+    background-color: transparent;
+    border: 2px solid #a8b1ba;
+    color: #a8b1ba;
+}
+.for-hover-3 a:hover{
+    background: transparent;
+    border: 2px solid #dbc082;
+    color: #dbc082;
+}
+.for-hover-4 a:hover{
+    background-color: transparent;
+    border: 2px solid #e2ebfc;
+    color: #e2ebfc;
+}
+.animals-img{
+    margin-bottom: 30px;
+}
+/* Animals Section Ending Here */
+/* OUR SERVICES SECTION IS STARTING FROM HERE */
+.our-services{
+    position: relative;
+}
+.services-content{
+    margin-top: 150px;
+}
+.our-services h2{
+    font-size: 48px;
+    color: rgb(143, 179, 0);
+    font-weight: bold;
+    padding-top: 95px;
+}
+.our-services-img-2{
+    position: relative;
+    top: -247px;
+    left: 361px;
+    width: 250px;
+}
+.our-services-button p{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    margin-left: 65px;
+}
+.our-services-button h2{
+    padding-left: 70px;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+.our-services-button a {
+    width: 265px;
+    border: 2px solid transparent;
+    font-size: 29px;
+    color: black;
+    background-color: #ffd200;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 25px;
+    margin-left: 65px;
+}
+.our-services-button a:hover{
+    background-color: transparent;
+    border: 2px solid #ffd200;
+    color: #ffd200;
+}
+.img-wrapper{
+    height: 500px;
+}
+/* OUR SERVICES SECTION IS ENDING HERE */
+/* ABOUT US SECTION IS STARTING FROM HERE */
+.bg-of-about-us{
+    background-image: url('../img/about-us-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
+}
+.about-us h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 121px;
+    padding-bottom: 140px;
+    color: white;
+    font-weight: 800;
+}
+.what-we-do{
+    background-color: white;
+    text-align: justify;
+    text-align-last: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 350px;
+    padding-bottom: 95px;
+}
+.what-we-do img{
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+.what-we-do h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.what-we-do p{
+    padding: 0px 10px 65px 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+.what-we-do a{
+    width: 206px;
+    height: 65px;
+    border: 1px solid black;
+    border: transparent;
+    font-size: 29px;
+    color: black;
+    background-color: #ffd200;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 21px 34px 23px 34px;
+}
+.what-we-do a:hover{
+    background-color: transparent;
+    border: 2px solid #ffd200;
+    color: #ffd200;
+}
+.we-have{
+    word-spacing: 5px !important;
+    letter-spacing: 0px !important;
+}
+.vision-para{
+    letter-spacing: 0px !important;
+}
+/* ABOUT US SECTION IS ENDING HERE */
+/* OUR TEAM SECTION IS STARTING FROM HERE */
+.our-team{
+    position: relative;
+}
+.our-team h2{
+    padding-top: 118px;
+    padding-bottom: 194px;
+    font-size: 48px;
+    color: rgb(143, 179, 0);
+    font-weight: bold;
+}
+.our-team-main{
+    display: inline-flex;
+}
+.jhon{
+    margin-top: -35px;
+}
+.name{
+    width: 287px;
+    margin-top: -10px;
+    margin-left: 17px;
+}
+.name h4,h5{
+    color: #8fb300;
+}
+.name h4{
+    margin-bottom: 0px;
+}
+.tim{
+    text-align: justify;
+    text-align-last: end;
+}
+.jhon-para{
+    text-align: justify;
+}
+.image{
+    width: 200px;
+}
+.vl{
+    border-left: 3px solid black !important;
+    height: 825px;
+    position: absolute;
+    top: 280px;
+    width: fit-content;
+    left: 550px;
+}
+.for-margin{
+    margin-bottom: 240px;
+}
+.for-bottom-margin{
+    margin-bottom: 180px;
+}
+
+.coming-bg{
+    background-color: #8fb300;
+}
+.coming-heading{
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 362px;
+    font-size: 140px;
+    color: rgb(10, 24, 51);
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.coming-soon{
+    position: relative;
+}
+.coming-soon a{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    font-size: 60px;
+    background-color: #ffd200;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    color: #0a1833;
+}
+.coming-soon a:hover{
+    background-color: transparent;
+    border: 2px solid #ffd200;
+    border-radius: 50%;
+    color: #ffd200;
+}
+/* OUR TEAM SECTION IS ENDING HERE */
+/* FOOTER IS STARTING FROM HERE */
+.footer-bg{
+    background-color: black;
+    position: relative;
+}
+.footer-para{
+    color: white;
+    padding-top: 56px;
+    padding-bottom: 54px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-flex;
+}
+.footer-para a{
+color: white;
+}
+.footer-content i{
+    font-size: 30px;
+    color: white;
+}
+.footer-content a:hover{
+    background-color: white;
+    color: black;
+}
+.facebook{
+    position: absolute;
+    top: 65px;
+    right: 360px;
+}
+.google{
+    position: absolute;
+    top: 65px;
+    right: 290px;
+}
+.twitter{
+    position: absolute;
+    top: 65px;
+    right: 220px;
+}
+.youtube{
+    position: absolute;
+    top: 65px;
+    right: 140px;
+}
+i{
+    cursor: pointer;
+}
+/* FOOTER IS ENDING HERE */
+/* Media Queries  */
+@media(max-width:1200px){
+    .carousel-caption {
+        padding-bottom: 4.25rem !important;
+    }
+    .our-services-img-2{
+        top: -189px;
+        left: 271px;
+    }
+    .what-we-do{
+     width: 30%;
+     margin-left: 10px;
+    }
+    .what-we-do h3{
+        font-size: 1.4rem;
+    }
+    .vl{
+        left: 487px;
+    }
+    .facebook{
+        top: 59px;
+        right: 284px;
+    }
+    .google{
+        top: 59px;
+        right: 233px;
+    }
+    .twitter{
+        top: 59px;
+        right: 182px;
+    }
+    .youtube{
+        top: 59px;
+        right: 128px;
+    }
+}
+@media(max-width:992px){
+    .pics{
+        width: 50%;
+    }
+    .animals-img {
+        margin-top: 40px;
+    }
+    .our-services-button {
+        margin-top: 70px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .what{
+        width: 45%;
+        margin-right: 20px;
+    }
+    .vision{
+        width: 48%;
+        margin-left: 20px;
+    }
+    .who{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .our-team-row{
+        justify-content: center;
+        display: grid;
+    }
+    .for-margin{
+        margin-bottom: 70px
+    }
+    .for-bottom-margin{
+        margin-bottom: 70px;
+    }
+    .coming-heading{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 5rem;
+    }
+    .coming-soon a{
+        bottom: 63px;
+        right: 7px;
+        font-size: 3rem;
+    }
+    .footer-para{
+        padding-bottom: 80px;
+    }
+    .facebook{
+        top: 105px;
+        left: 300px;
+    }
+    .google{
+        top: 105px;
+        left: 350px;
+    }
+    .twitter{
+        top: 105px;
+        left: 410px;
+    }
+    .youtube{
+        top: 105px;
+        left: 470px;
+    }
+    .vl{
+        display: none;
+    }
+    .our-services-img-2 {
+        left: 463px;
+        top: -324px;
+    }
+}
+@media(max-width:767.9px){
+    .our-services-img-2 {
+        left: 149px;
+        top: 16px;
+    }
+    .first-para {
+        font-size: 16px;
+        margin-bottom: 38px;
+        max-width: 480px;
+    }
+    .circle-slides{
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .carousel-caption {
+        padding-bottom: 0.25rem !important;
+    }
+    .text-color a{
+        padding: 10px;
+    }
+    .our-services-button {
+        margin-top: 270px;
+    }
+    .our-services-button a {
+        margin-left: 0px;
+    }
+    .what-we-do a {
+        width: 300px;
+        font-size: 19px;
+    }
+    .what-we-do{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .text-color{
+        width: 100%
+    }
+    .first-para{
+        width: 100%;
+    }
+    .carousel-indicators{
+        margin-left: 25% !important;
+    }
+    .our-team h2 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .coming-soon a {
+        bottom: 144px;
+    }
+    .footer-para {
+        font-size: 16px;
+    }
+    .facebook {
+        left: 150px;
+    }
+    .google{
+        left: 200px;
+    }
+    .twitter{
+        left: 270px;
+    }
+    .youtube{
+        left: 340px;
+    }
+    .our-services-button h2 {
+         padding-left: 0px;
+    }
+    .our-services-button p {
+         margin-left: 0px;
+    }
+}
+@media(max-width:576px){
+    .for-mid{
+        margin: 0 auto !important;
+    }
+    .pics {
+        width: 100%;
+    }
+    .first-para {
+        font-size: 11px;
+        margin-bottom: 9px;
+        max-width: 250px;
+    }
+    .heading {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .second-heading{
+        font-size: 16px;
+        margin-bottom: 0px !important;
+    }
+    .text-color a {
+        padding: 7px;
+        font-size: 16px;
+    }
+    .pics a {
+        font-size: 16px;
+    }
+    .our-services h2 {
+        font-size: 40px;
+    }
+    .content-btn a{
+        font-size: 16px;
+    }
+    .coming-heading {
+        font-size: 3rem;
+    }
+    .coming-soon a {
+        bottom: 117px;
+    }
+    .our-services-img-2 {
+        left: 32px;
+        top: 16px;
+    }
+    .our-team-row{
+    width: 100%;
+    } 
+    .carousel-indicators{
+        margin: 0 auto !important;
+        margin-bottom: -8px !important;
+    }  
+    .facebook {
+        top: 121px;
+        left: 65px;
+    }
+    .google{
+        top: 121px;
+        left: 130px;
+    }
+    .twitter{
+        top: 121px;
+        left: 200px;
+    }
+    .youtube{
+        top: 121px;
+        left: 260px;
+    }
+}

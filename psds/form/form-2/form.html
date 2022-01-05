@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+   <div class="main">
+<div class="reg">
+<H2>Register Here</H2>
+<form action="register" id="register" method="post">
+    <label for="">First Name:</label>
+    <br>
+    <input type="text" name="fname" id="name" placeholder="Enter Your First Name" required>
+    <br> <br>
+    <label for="">Last Name:</label>
+    <br>
+    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name" disabled>
+    <br> <br>
+    <label for="">Your Age :</label>
+    <br>
+    <input type="number" min="18" max="40" class="name" id="name" placeholder="Click uo and down for valid age">
+    <br> <br>
+    <label for="">Email</label>
+    <br>
+    <input type="email" name="email" id="name" placeholder="Enter Your Valid Email" readonly>
+    <br> <br>
+    <label for="">Email</label>
+    <br>
+    <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+    <br> <br>
+    
+    <input type="radio" name="gender" id="Male" checked>
+    
+    <span id="male">Male</span>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender" id="female">
+    
+    <span id="male">Female</span>
+    <br> <br>
+    <label for="">Known Language:</label>
+    <br>
+    
+    <input type="checkbox" name="lang" id="Urdu" checked>
+    
+    <span id="Urdu">Urdu</span>
+    
+    <input type="checkbox" name="lang" id="Eng">
+    
+    <span id="eng">English</span>
+    
+    <input type="checkbox" name="lang" id="Punjabi">
+    
+    <span id="pun">Punjabi</span>
+    <br> <br>
+    <input type="submit" value="Submit" name="submit" id="submit">
+</form>
+</div><!--reg end-->
+   </div><!--main end--> 
+</body>
+</html>

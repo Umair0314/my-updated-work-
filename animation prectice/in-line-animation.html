@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    /* display: flex; */
+    background-color: chocolate;
+}
+.box{
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: ur;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+}
+
+@keyframes ur{
+    from{
+        width: 200px;
+    }
+    to{
+     width: 400px;   
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a box
+        </div>
+    </div>
+    <div class="box2">
+        this is secod box
+    </div>
+</body>
+</html>

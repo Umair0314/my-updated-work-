@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box2{
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: ura;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-direction: reverse; */
+}
+@keyframes ura{
+    from{
+        background-color: cyan;
+    }
+    to{
+     background-color: darkorange;
+    }
+}
+@keyframes ura{
+    0%{
+        top: 0px;
+        left: opx;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    /* 50%{
+top: 0px;
+left: 0px;
+    } */
+    75%{
+        left: 250px;
+        top: 250px;
+    }
+    100%{
+        left: 250px;
+        top: 0px;
+    }
+}
+</style>
+<body>
+    <div class="box2">This is a box</div>
+</body>
+</html>

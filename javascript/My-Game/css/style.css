@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    width: 500px;
+    height: 250px;
+    border: 2px dotted wheat;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#character{
+    width: 20px;
+    height: 50px;
+    font-size: 45px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+#gameOver{
+    visibility: hidden;
+    position: relative;
+    top: 47px;
+    text-align: center;
+    left: 0px;
+    font-size:40px ;
+}
+#button{
+    display: inline-block;
+    visibility: hidden;
+    position: absolute;
+    left: 210px;
+    top: 100px;
+}
+#button button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+#button button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+#gameOver i{
+    color: #217ff3
+}
+.animate{
+animation: jump .5s ;
+
+}
+@keyframes jump{
+0%{top: 150px;}
+/* 25%{top: 120px;}
+50%{top:90px} */
+75%{top: 120px;}
+100%{top: 150px;}
+}
+#block{
+width: 20px;
+height: 20px;
+color: black;
+position: relative;
+top: 115px;
+left: 480px;
+animation: block 2s linear infinite;
+
+}
+#block i {
+    font-weight: 900px;
+    font-size: 30px;
+}
+
+@keyframes block{
+    0%{left: 400px}
+    100%{left:-40px}
+}
+#scoreCont{
+    position: absolute;
+    top: 9px;
+    right: 23px;
+}

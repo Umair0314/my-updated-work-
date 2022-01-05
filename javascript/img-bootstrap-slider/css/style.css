@@ -1,0 +1,25 @@
+.container{
+    width: 700px;
+    height: 700px;
+}
+.carousel-indicators button{
+    border: 1px solid white !important;
+    width: 20px !important;
+    height: 20px !important;
+    background: white !important;
+    border-radius: 50% !important;
+}
+ button:hover{
+    background: wheat !important;
+    color: violet;
+    /* transition:cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+}
+.arrows{
+    width: 30px;
+    border: 2px solid wheat;
+    height: 30px;
+    border-radius: 50%;
+    color: rgb(28, 240, 9);
+    position: absolute;
+    top: 150px;
+}

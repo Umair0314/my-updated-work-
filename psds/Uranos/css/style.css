@@ -1,0 +1,945 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Nedium;
+    src: url(Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Bold;
+    src: url(Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Light;
+    src: url(Proxima-Nova-Light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header Start */
+
+.header {
+    background-image: url("../img/Background\ Photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid #ffd800;
+    padding-bottom: 344px;
+    background-position: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 17px 23px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 36px;
+    padding-top: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    padding-top: 40px;
+}
+
+.collapse a {
+    color: white;
+}
+
+.collapse a:hover {
+    /* color: black !important; */
+    background-color: #ffd800;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background: yellowgreen;
+    color: yellow;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+    transform: rotatey(360deg);
+    transition-duration: .2s;
+}
+
+sub {
+    color: black;
+    background-color: #ffd800;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.main-heading {
+    margin-top: 117px;
+    color: white;
+}
+
+.main-heading h1 {
+    font-family: Thin 100;
+    font-weight: 200;
+    font-size: 3.75rem;
+}
+
+.main-heading h3 {
+    font-size: 3.75rem;
+}
+
+.main-form {
+    margin-top: 65px;
+}
+
+.main-form input::placeholder {
+    color: white;
+}
+
+.header-email {
+    background-color: transparent;
+    border: 1px solid #8b8b93;
+    max-width: 500px;
+    height: 60px;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-right: 17px;
+    outline: none;
+}
+
+.main-form input {
+    color: white;
+}
+
+.main-form button {
+    background-color: #ffd800;
+    border: 1px solid #8b8b93;
+    color: white;
+    padding: 18px 32px 18px 32px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.main-form a {
+    color: white;
+}
+
+.main-form input:hover {
+    /* border: 1px solid; */
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+    background-color: rgba(129, 109, 109, 0.397);
+}
+
+.main-form button:hover {
+    background: transparent;
+    color: yellow;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+    transform: rotatey(360deg);
+    transition-duration: .2s;
+}
+
+.main-form button:hover a {
+    color: #000;
+}
+
+
+/* Header End */
+
+
+/* Main Section Start */
+
+.main-content {
+    background-color: #191b29;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.main-content h3 {
+    text-align: center;
+    font-size: 36px;
+    padding-left: 70px;
+}
+
+.mobile-service h3:hover {
+    color: #ffd800;
+}
+
+.main-content p {
+    margin-top: 32px;
+    font-size: 16px;
+    color: rgb(157, 159, 191);
+    font-weight: 300;
+    padding-right: 55px;
+    margin-bottom: 70px;
+}
+
+.imginteligent {
+    display: flex;
+}
+
+.main-content i {
+    color: #ffd800;
+}
+
+.print-icon {
+    position: relative;
+    margin-top: 52px;
+}
+
+.print-icon i {
+    position: absolute;
+}
+
+.it-service {
+    position: relative;
+    margin-top: 0px;
+}
+
+.int {
+    padding-left: 30px !important;
+}
+
+.int2 {
+    padding-left: 20px!important;
+}
+
+.it-service i {
+    position: absolute;
+    top: 0px;
+}
+
+.phone img {
+    margin-top: -135px;
+}
+
+.mobile-service {
+    position: relative;
+    margin-top: 50px;
+}
+
+.mobile-service i {
+    position: absolute;
+}
+
+.print-service {
+    position: relative;
+    margin-top: 0px;
+}
+
+.print-service i {
+    position: absolute;
+}
+
+
+/* Main Section End */
+
+
+/* Meet Our Team Start */
+
+.meet-our-team {
+    background-color: #ffd800;
+    padding-bottom: 100px;
+}
+
+.meet-heading {
+    padding-top: 138px;
+}
+
+.meet-heading h2 {
+    font-weight: 200;
+    font-size: 3.75rem;
+    color: rgb(25, 27, 41);
+    /* font-family: 'Roboto'; */
+}
+
+.meet-heading p {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: rgb(25, 27, 41);
+    padding-bottom: 90px;
+    /* font-family: 'Roboto'; */
+}
+
+.our-team-img {
+    width: 156px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    border: transparent;
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+
+.our-team-heading {
+    padding-bottom: 36px;
+}
+
+.our-team-heading h4 {
+    color: rgb(25, 27, 41);
+    padding-bottom: 33px;
+    /* font-family: 'Roboto'; */
+}
+
+.our-team-heading p {
+    font-size: 18px;
+    /* font-family: Roboto-light; */
+    color: rgba(25, 27, 41, 0.702);
+}
+
+
+/* Meet Our Team End */
+
+
+/* Awesome App Start */
+
+.first-para {
+    background-color: #ffe347;
+}
+
+.first-para h4 {
+    padding: 60px 0px 34px 0px;
+}
+
+.second-para h4 {
+    padding: 86px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.first-para p {
+    padding-bottom: 67px;
+    padding-left: 0px;
+    font-size: 17px;
+    /* font-family: 'Roboto'; */
+}
+
+.first-row {
+    max-width: 543px;
+}
+
+.second-para a {
+    font-weight: 700;
+    width: 208px;
+    border: 2px solid;
+    padding: 22px 31px 22px 31px;
+    background: black;
+    color: white;
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.second-para a:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: rgb(230, 189, 10);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.second-para a:hover:before {
+    width: 100%;
+    opacity: 1;
+    color: #fff;
+    z-index: -1;
+}
+
+.second-para .second-para {
+    max-width: 543px;
+}
+
+.second-para p {
+    padding-left: 0px;
+    font-size: 18px;
+    padding-bottom: 43px;
+    /* font-family: 'Roboto'; */
+}
+
+.second-para a:before:hover {
+    color: white;
+}
+
+.awesom-app {
+    padding-bottom: 140px;
+}
+
+.awesome-app {
+    position: relative;
+    padding-bottom: 190px;
+}
+
+.mack-book img {
+    position: absolute;
+    right: 0px;
+    top: -294px;
+    width: 1097px;
+    height: 817px
+}
+
+
+/* Awesome App End */
+
+
+/* How Our Section Start */
+
+.how-our {
+    background-image: url("../img/Background\ Photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 125px;
+}
+
+.content-how h3 {
+    padding-top: 124px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    /* font-family: 'Roboto'; */
+}
+
+.content-how h4 {
+    color: white;
+    font-weight: 800;
+    /* font-family: 'Roboto'; */
+}
+
+.font-awesome {
+    margin-top: 90px;
+}
+
+.font-awesome i {
+    color: #ffd800;
+}
+
+.lorem-content {
+    margin-top: 52px;
+}
+
+.lorem-content h3 {
+    color: white;
+    padding-bottom: 26px;
+    /* font-family: "Roboto"; */
+}
+
+.lorem-content h3:hover {
+    color: #ffd800;
+    cursor: pointer;
+}
+
+.lorem-content p {
+    color: rgba(255, 255, 255, 0.502);
+    font-size: 18px;
+}
+
+.app {
+    margin-top: 88px;
+}
+
+.app a {
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 25px 45px 25px 42px;
+    width: 229px;
+    font-weight: 700;
+    border: transparent;
+    background: rgb(255, 210, 0);
+    color: white;
+}
+
+.app a:hover {
+    color: rgb(255, 210, 0);
+    background-color: transparent;
+    border: 2px solid;
+}
+
+
+/* How Our Section End */
+
+
+/* Footer Start */
+
+.footer {
+    background-color: #191b29;
+    color: white;
+}
+
+.footer-content {
+    padding-top: 146px;
+}
+
+.footer-end {
+    width: 589px;
+    margin: 0 auto;
+    margin-top: 136px;
+    padding-bottom: 100px;
+}
+
+.footer-end p {
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+
+.footer-end a {
+    color: white;
+    font-weight: 700;
+}
+
+.footer-text ul {
+    text-align: center;
+    line-height: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer-text a {
+    color: white;
+}
+
+.footer-text a:hover {
+    color: #ffd800;
+}
+
+.footer-end-text :hover {
+    font-weight: 900px;
+}
+
+
+/* Footer End */
+
+
+/* Media Queries Start */
+
+@media (min-width:1200px) {
+    .phone img {
+        margin-top: -116px;
+    }
+    .mack-book img {
+        /* width: 690px; */
+        width: 767px;
+    }
+}
+
+@media (min-width:1150px) {
+    .mack-book img {
+        /* width: 618px; */
+    }
+}
+
+@media(max-width:1199.9px) {
+    .mack-book img {
+        width: 624px;
+        height: 845px;
+    }
+    .main-content p {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .our-team-heading h4 {
+        font-size: 29px;
+    }
+    .phone img {
+        margin-top: -97px;
+    }
+    .main-content h3 {
+        font-size: 25px;
+    }
+    .first-para p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .second-para p {
+        padding-left: 0px;
+        font-size: 16px;
+        padding-bottom: 43px;
+    }
+    .for-nav-design {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(max-width:991.9px) {
+    .for-nav-design {
+        max-width: 972px;
+    }
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item {
+        background-color: grey;
+        border-bottom: 2px solid wheat;
+    }
+    .our-team {
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        max-width: 333px;
+    }
+    .print-icon {
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .it-service {
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .mobile-service {
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .print-service {
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .navbar-dark .navbar-toggler {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .print-icon {
+        position: none;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .print-icon i {
+        position: relative;
+    }
+    .main-content h3 {
+        padding-left: 36px;
+    }
+    .main-content p {
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .it-service i {
+        position: relative;
+    }
+    .it-service {
+        text-align: center;
+    }
+    .phone img {
+        margin-top: -94px;
+    }
+    .phone {
+        text-align: center;
+    }
+    .mobile-service {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .mobile-service i {
+        position: relative;
+    }
+    .print-service {
+        text-align: center;
+    }
+    .print-service i {
+        position: relative;
+    }
+    .main-content {
+        padding-bottom: 60px;
+    }
+    .meet-heading {
+        padding-top: 60px;
+    }
+    .meet-heading p {
+        padding-bottom: 40px;
+    }
+    .mack-book img {
+        width: 440px;
+        height: 850px;
+    }
+    .second-para {
+        max-width: 385px;
+    }
+    .first-row {
+        max-width: 385px;
+    }
+    .content-how h3 {
+        padding-top: 60px;
+    }
+    .font-awesome {
+        margin-top: 20px;
+    }
+    .lorem-content {
+        margin-top: 20px;
+    }
+    .footer-content {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .footer-end {
+        margin-top: 50px;
+        padding-bottom: 70px;
+        max-width: 100%;
+    }
+    .phone img {
+        margin-top: 40px;
+    }
+    .print-icon i {
+        padding-bottom: 20px;
+    }
+    .print-service i {
+        padding-bottom: 20px;
+    }
+    .mobile-service i {
+        padding-bottom: 20px;
+    }
+    .it-service i {
+        padding-bottom: 20px;
+    }
+    .mack-book img {
+        width: 396px;
+        height: 850px;
+    }
+    .navbar-brand {
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    .footer-text ul {
+        padding-left: 0px;
+    }
+    .footer-text {
+        width: 250px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .how-work {
+        width: 350px;
+        display: inline-block;
+    }
+    .imginteligent {
+        display: block;
+    }
+    .imginteligent h3 {
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar .navbar-expand-lg .navbar-dark {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-heading h1 {
+        font-size: 2.6rem;
+    }
+    .header:first-child {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .print-icon {
+        position: none;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .it-service {
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .main-content p {
+        margin-bottom: 12px;
+        padding-right: 0px;
+    }
+    .our-team {
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        max-width: 333px;
+    }
+    .meet-our-team {
+        padding-bottom: 40px;
+    }
+    .print-service {
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .mobile-service {
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        max-width: 450px;
+    }
+    .how-work {
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+        max-width: 328px;
+    }
+    .for-second-p {
+        margin-right: 0px;
+    }
+    .header-email {
+        margin: 0 auto;
+        display: block;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .main-heading h3 {
+        font-size: 2.8rem;
+    }
+    .main-form a {
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .header {
+        padding-bottom: 60px;
+    }
+    .awesome-app {
+        position: none;
+    }
+    .mack-book img {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        max-width: 100%;
+        height: 318px;
+    }
+    .mack-book {
+        order: 1;
+        margin-top: 30px;
+    }
+    .for-second-para {
+        order: 2;
+        margin-top: 250px;
+    }
+    .first-row {
+        max-width: 556px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .second-para {
+        max-width: 556px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .second-para a {
+        margin: 0 auto;
+    }
+    .awesome-app {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        padding-right: 10px;
+    }
+    .main-form a {
+        max-width: 250px;
+    }
+    .header-email {
+        margin: 0 auto;
+        max-width: 218px;
+        margin-bottom: 20px;
+    }
+    .main-form a {
+        max-width: 218px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .first-row {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 300px
+    }
+    .second-para {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 300px
+    }
+    .second-para a {
+        margin-left: 24px;
+    }
+    .meet-our-team {
+        padding-bottom: 20px;
+    }
+    .main-first-row {
+        margin-right: 0px;
+    }
+    .main-heading h1 {
+        font-size: 1.4rem;
+    }
+    .main-heading h3 {
+        font-size: 1.4rem;
+    }
+    .meet-heading h2 {
+        font-size: 2.4rem;
+    }
+    .meet-heading p {
+        font-size: 1.5rem;
+    }
+    .content-how h3 {
+        font-size: 31px;
+    }
+    .second-para h4 {
+        font-size: 26px;
+    }
+    .how-work {
+        max-width: 306px;
+    }
+}
+
+
+/* Media Queries End */

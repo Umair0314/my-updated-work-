@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        position: relative;
+        margin: 0 auto;
+    }
+    .img:hover {
+  z-index: 1;
+  -webkit-transition: clip .4s ease-in-out .2s, z-index .2s linear;
+  transition: clip .4s ease-in-out .2s, z-index .2s linear;
+  clip: rect(0px, 300px, 300px, 0px);
+  z-index: 1;
+}
+    .img{
+        position: absolute;
+    }
+    .img1{
+        clip: rect(0px, 150px, 150px 0px);
+    }
+    .img2{
+        clip: rect(0px, 300px, 150px 150px);
+    }
+    .img3{
+        clip: rect(150px, 150px, 300px 0px);
+    }
+    .img4{
+        clip: rect(150px, 300px, 300px 150px);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="img1 img"><img src="img/images (1).jpg" alt=""></div>
+        <div class="img1 img"><img src="img/images (2).jpg" alt=""></div>
+        <div class="img1 img"><img src="img/images (3).jpg" alt=""></div>
+        <div class="img1 img"><img src="img/images.jpg" alt=""></div>
+    </div>
+</body>
+</html>
